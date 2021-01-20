@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.container {
+    background-color: #fafafa;
+    margin: 200px;
+    box-shadow:10px 15px 20px rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container-time{
+    background-color: rgba(0,0,0,.95);
+    padding: 50px;
+    outline: 3px dashed #800080;
+    outline-offset: -30px;
+    text-align: center;
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.heading-days{
+    color: #800080;
+    font-size: 30px;
+}
+.heading-phone{
+    font-size: 20px;
+}
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000000;
+}
+form{
+    display:grid ;
+    grid-row-gap: 20px;
+}
+form p{
+    font-weight: 600;
+}
+
+.data-field{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input,select{
+  padding:10px 15px;
+
+}
+
+.data-submit{
+    background-color: rgba(0,0,0,.95);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius:100px ;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0,0,0,.1);
+}
+.data-submit:hover{
+    transform: scale(1.03);
+}
+.error-msg{
+    background-color: chartreuse;
+    color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+
+}
